@@ -1,26 +1,39 @@
 body {
-    width: 960px;
-    margin: 0 auto;
-    background: #ffffff;
-    border: 1px solid #dddddd;
+    margin: 0;
 }
-.header-wrap {
+
+.content-wrap {
+    width: 960px;
     background: #ffffff;
-    padding: 10px;
-    top: 0;
+    margin: 0 auto;
+}
+
+header {
+    background: #ffffff;
     border-bottom: 1px solid #cccccc;
-    width: 100%;
+}
+
+.header-wrap {
+    width: 960px;
+    margin: auto;
+    height: 52px;
 }
 
 #header-name {
     width: fit-content;
     padding: 15px;
     background: #4aaaa5;
+    display: inline-block;
 }
 
 .nav-wrap {
     float: right;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    display: table-cell;
+}
+
+.nav-item {
+    vertical-align: middle;
 }
 
 .content {
@@ -40,6 +53,7 @@ h1 {
 
 h3 {
     display: inline;
+    color: #ffffff;
 }
 
 footer {
