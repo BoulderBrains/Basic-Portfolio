@@ -9,7 +9,7 @@ body {
     width: 960px;
     background: #ffffff;
     margin: 0 auto;
-    border: 1px solid #999999;
+    border: 1px solid #dddddd;
     margin-top: 20px;
 }
 
@@ -74,6 +74,6 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 0;
-    border-top: 7px solid #52AAA4;
+    border-top: 7px solid #4aaaa5;
     padding: 20px;
 }
