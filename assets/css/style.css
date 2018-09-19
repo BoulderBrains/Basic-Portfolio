@@ -33,7 +33,9 @@ header {
 }
 
 .nav-item {
-    vertical-align: middle;
+    display: inline-block;
+    padding: 16px 20px;
+    color: #999999;
 }
 
 .content {
