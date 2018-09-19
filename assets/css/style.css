@@ -8,6 +8,11 @@ body {
     background: #ffffff;
     margin: 0 auto;
     border: 1px solid #999999;
+    margin-top: 20px;
+}
+
+.content-wrap hr {
+    width: 95%;
 }
 
 header {
@@ -53,6 +58,7 @@ img {
 
 h1 {
     color: #777777;
+    padding-left: 20px;
 }
 
 h3 {
