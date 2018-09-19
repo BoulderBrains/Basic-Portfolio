@@ -38,8 +38,9 @@ header {
     color: #999999;
 }
 
-.content {
+.content-wrap {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url('assets/images/topography.png');
 }
 
 img {
