@@ -60,4 +60,10 @@ h3 {
 
 footer {
     background: #666666;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 7px solid #52AAA4;
+    padding: 20px;
 }
