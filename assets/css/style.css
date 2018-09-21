@@ -1,5 +1,6 @@
 /* Setup a css reset file for this project */
 
+/* Universal css rules applied to all three pages */
 body {
     margin: 0;
     background-image: url('../images/grey_wash_wall.png');
@@ -53,15 +54,8 @@ header {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-img {
-    width: 140px;
-    height: 150px;
-    border-radius: 8px;
-    margin: 10px;
-}
-
 h1 {
-    color: #777777;
+    color: #4aaaa5;
     padding-left: 20px;
 }
 
@@ -80,3 +74,15 @@ footer {
     padding: 20px;
     color: #BDC0C1;
 }
+
+/* Styles related only to the index.html file */
+img {
+    width: 140px;
+    height: 150px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+/* Styles related only to the contact.html file */
+
+/* Styles related only to the gallery.html file */
