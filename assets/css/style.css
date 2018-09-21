@@ -85,4 +85,9 @@ img {
 
 /* Styles related only to the contact.html file */
 
+input {
+    width: 100%;
+    margin: 0 20px;
+}
+
 /* Styles related only to the gallery.html file */
