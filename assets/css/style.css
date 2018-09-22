@@ -94,18 +94,22 @@ img {
 /* Styles related only to the contact.html file */
 
 label {
-    color: 
+    color: #BFBFBF;
+    padding: 10px 0;
+    display: block;
 }
+
 input {
-    width: 100%;
     padding: 5px;
-    /* margin: 0 20px; */
+    border: 1px solid #BFBFBF;
+    margin: 5px 0;
+    min-width: 905px;
 }
 
 textarea {
-    min-width: 918px;
+    min-width: 905px;
     min-height: 200px;
-    border: 1px solid #999999;
+    border: 1px solid #BFBFBF;
 }
 
 button {
