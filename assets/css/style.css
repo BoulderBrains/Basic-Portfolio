@@ -76,7 +76,7 @@ footer {
     background: #666666;
     text-align: center;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     border-top: 7px solid #4aaaa5;
     padding: 20px;
@@ -84,7 +84,7 @@ footer {
 }
 
 /* Styles related only to the index.html file */
-img {
+.personal-photo {
     width: 140px;
     height: 150px;
     border-radius: 8px;
@@ -108,7 +108,7 @@ input {
 
 textarea {
     min-width: 905px;
-    min-height: 200px;
+    min-height: 150px;
     border: 1px solid #BFBFBF;
 }
 
@@ -121,3 +121,37 @@ button {
 }
 
 /* Styles related only to the gallery.html file */
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    display: inline-flex;
+    flex-grow: 1;
+    margin: 20px;
+}
+
+/* This link in included several times to ensure a new random
+image is served from picsum */
+.album1 {
+    background-image: url('https://picsum.photos/250/251/?random');
+}
+
+.album2 {
+    background-image: url('https://picsum.photos/250/250/?random');
+}
+
+.album3 {
+    background-image: url('https://picsum.photos/249/250/?random');
+}
+
+.album4 {
+    background-image: url('https://picsum.photos/251/250/?random');
+}
+
+.album5 {
+    background-image: url('https://picsum.photos/250/249/?random');
+}
