@@ -6,18 +6,8 @@ body {
     background-image: url('../images/grey_wash_wall.png');
 }
 
-.content-wrap {
-    width: 960px;
-    min-height: 300px;
-    background: #ffffff;
-    margin: 0 auto;
-    border: 1px solid #dddddd;
-    margin-top: 20px;
-    box-sizing: border-box;
-}
-
-.content-wrap hr {
-    width: 95%;
+p {
+    line-height: 1.5;
 }
 
 header {
@@ -28,40 +18,58 @@ header {
 .header-wrap {
     width: 960px;
     margin: auto;
-    height: 52px;
+    display: table;
 }
 
 #header-name {
     width: fit-content;
-    padding: 15px;
+    padding: 20px;
     background: #4aaaa5;
-    display: inline-block;
+    display: table-cell;
+    float: left;
 }
 
 .nav-wrap {
-    float: right;
+    vertical-align: middle;
     font-family: 'Georgia', Times, Times New Roman, serif;
     display: table-cell;
+    text-align: right;
 }
 
 .nav-item {
     display: inline-block;
-    padding: 16px 20px;
+    padding: 0 20px;
     color: #999999;
 }
 
+.nav-item a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.sliver-divider {
+    border-right: 1px solid #BDC0C1;
+}
+
 .content-wrap {
+    width: 960px;
+    padding: 20px;
+    min-height: 300px;
+    background: #ffffff;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    box-sizing: border-box;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 h1 {
-    color: #4aaaa5;
-    padding-left: 20px;
+    color: white;
+    margin: 0;
 }
 
-h3 {
-    display: inline;
-    color: #ffffff;
+h2 {
+    color: #4aaaa5;
 }
 
 footer {
@@ -85,9 +93,27 @@ img {
 
 /* Styles related only to the contact.html file */
 
+label {
+    color: 
+}
 input {
     width: 100%;
-    margin: 0 20px;
+    padding: 5px;
+    /* margin: 0 20px; */
+}
+
+textarea {
+    min-width: 918px;
+    min-height: 200px;
+    border: 1px solid #999999;
+}
+
+button {
+    padding: 7px 20px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
 }
 
 /* Styles related only to the gallery.html file */
