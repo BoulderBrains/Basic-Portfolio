@@ -8,6 +8,7 @@ body {
 
 p {
     line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -40,6 +41,7 @@ header {
     display: inline-block;
     padding: 0 20px;
     color: #999999;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-item a {
@@ -66,10 +68,12 @@ header {
 h1 {
     color: white;
     margin: 0;
+    font-family: 'Playfair Display SC', serif;
 }
 
 h2 {
     color: #4aaaa5;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer {
@@ -89,6 +93,7 @@ footer {
     height: 150px;
     border-radius: 8px;
     margin: 10px;
+    float: left;
 }
 
 /* Styles related only to the contact.html file */
