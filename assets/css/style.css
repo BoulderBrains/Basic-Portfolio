@@ -110,6 +110,9 @@ link in the footer as an easter egg */
 .social-wrapper a {
 	font-size: 24px;
 	color: inherit;
+	/* this works in safari */
+	text-decoration: none;
+	/* this works in chrome */
 	text-decoration-line: none;
 	padding: 0 10px;
 }
